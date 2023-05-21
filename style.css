@@ -497,6 +497,12 @@ header .navbar-wrapper .navbar .btn{
     .box-wrapper.row-3 .box .content {
         bottom: -10%;
     }
+    .box-wrapper.row-3 .left {
+        order: 1;
+    }
+    .box-wrapper.row-3 .right {
+        order: 2;
+    }
     .testi-area {
         padding: 60px 0;
     }
