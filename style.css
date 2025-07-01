@@ -492,6 +492,14 @@ header .navbar-wrapper .navbar .btn{
     .banner-area .arrow {
         top: 65%;
     }
+@keyframes updown {
+    from{
+        top: 65%;
+    }
+    to{
+        top: 68%;
+    }
+}
     .box-area .box-wrapper {
         text-align: center;
     }
