@@ -532,3 +532,21 @@ header .navbar-wrapper .navbar .btn{
         margin-bottom: 60px;
     }
 }
+
+#perobar{
+    position: relative;
+    width: 3px;
+    height: 80px;
+    background: var(--Secondary-color);
+    transition: all .3s ease-in-out;
+    animation: updown 1s  0.2s  forwards infinite;
+}
+
+@keyframes updown {
+    from{
+        top: 0;
+    }
+    to{
+        top: 20px;
+    }
+}
